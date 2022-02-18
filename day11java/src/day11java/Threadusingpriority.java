@@ -38,6 +38,7 @@ class B1 extends Thread {
           th.start();
           //d.start();
           System.out.println("current id of main :" + Thread.currentThread().getId());
+          System.out.println("done");
 	}
 
 }
